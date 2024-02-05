@@ -59,7 +59,7 @@ To start Vault, you can use the following command:
 vault server -dev -dev-listen-address="0.0.0.0:8200"
 ```
 NOTE: Vault comes in 2 different variations. One is you can start the prod server, or the dev server (as above).
-At work what you will use is the prod variation.
+At work what you will use is the prod variation, and you'll need to attach TLS, certificates, and create the production-grade instance.
 
 ## Configure Terraform to read the secret from Vault.
 
