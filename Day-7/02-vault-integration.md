@@ -61,6 +61,12 @@ vault server -dev -dev-listen-address="0.0.0.0:8200"
 NOTE: Vault comes in 2 different variations. One is you can start the prod server, or the dev server (as above).
 At work what you will use is the prod variation, and you'll need to attach TLS, certificates, and create the production-grade instance.
 
+You may need to set the following environment variables:
+
+```
+export VAULT_ADDR='http://0.0.0.0:8200'
+```
+
 ## Configure Terraform to read the secret from Vault.
 
 Detailed steps to enable and configure AppRole authentication in HashiCorp Vault:
