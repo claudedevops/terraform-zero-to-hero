@@ -58,6 +58,7 @@ To start Vault, you can use the following command:
 ```
 vault server -dev -dev-listen-address="0.0.0.0:8200"
 ```
+NOTE: Vault comes in 2 different variations.
 
 ## Configure Terraform to read the secret from Vault.
 
